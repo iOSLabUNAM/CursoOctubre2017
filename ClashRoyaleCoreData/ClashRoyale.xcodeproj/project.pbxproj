@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CB9061E1FA122F200899FE7 /* customTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9061D1FA122F200899FE7 /* customTableViewCell.swift */; };
+		93B549D91F9D0BA6008142C0 /* Supercell-magic-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93B549D81F9D0B92008142C0 /* Supercell-magic-webfont.ttf */; };
+		93C845261F9D07F10091FE1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C845251F9D07F10091FE1B /* AppDelegate.swift */; };
+		93C845281F9D07F10091FE1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C845271F9D07F10091FE1B /* ViewController.swift */; };
+		93C8452B1F9D07F10091FE1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C845291F9D07F10091FE1B /* Main.storyboard */; };
+		93C8452E1F9D07F10091FE1B /* ClashRoyale.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93C8452C1F9D07F10091FE1B /* ClashRoyale.xcdatamodeld */; };
+		93C845301F9D07F10091FE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C8452F1F9D07F10091FE1B /* Assets.xcassets */; };
+		93C845331F9D07F10091FE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C845311F9D07F10091FE1B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8CB9061D1FA122F200899FE7 /* customTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTableViewCell.swift; sourceTree = "<group>"; };
+		93B549D81F9D0B92008142C0 /* Supercell-magic-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Supercell-magic-webfont.ttf"; sourceTree = "<group>"; };
+		93C845221F9D07F10091FE1B /* ClashRoyale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClashRoyale.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C845251F9D07F10091FE1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93C845271F9D07F10091FE1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93C8452A1F9D07F10091FE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93C8452D1F9D07F10091FE1B /* ClashRoyale.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClashRoyale.xcdatamodel; sourceTree = "<group>"; };
+		93C8452F1F9D07F10091FE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93C845321F9D07F10091FE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93C845341F9D07F10091FE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93C8451F1F9D07F10091FE1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93C845191F9D07F10091FE1B = {
+			isa = PBXGroup;
+			children = (
+				93C845241F9D07F10091FE1B /* ClashRoyale */,
+				93C845231F9D07F10091FE1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93C845231F9D07F10091FE1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93C845221F9D07F10091FE1B /* ClashRoyale.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93C845241F9D07F10091FE1B /* ClashRoyale */ = {
+			isa = PBXGroup;
+			children = (
+				93C845251F9D07F10091FE1B /* AppDelegate.swift */,
+				93C845271F9D07F10091FE1B /* ViewController.swift */,
+				93C845291F9D07F10091FE1B /* Main.storyboard */,
+				8CB9061D1FA122F200899FE7 /* customTableViewCell.swift */,
+				93B549D81F9D0B92008142C0 /* Supercell-magic-webfont.ttf */,
+				93C8452F1F9D07F10091FE1B /* Assets.xcassets */,
+				93C845311F9D07F10091FE1B /* LaunchScreen.storyboard */,
+				93C845341F9D07F10091FE1B /* Info.plist */,
+				93C8452C1F9D07F10091FE1B /* ClashRoyale.xcdatamodeld */,
+			);
+			path = ClashRoyale;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93C845211F9D07F10091FE1B /* ClashRoyale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C845371F9D07F10091FE1B /* Build configuration list for PBXNativeTarget "ClashRoyale" */;
+			buildPhases = (
+				93C8451E1F9D07F10091FE1B /* Sources */,
+				93C8451F1F9D07F10091FE1B /* Frameworks */,
+				93C845201F9D07F10091FE1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClashRoyale;
+			productName = ClashRoyale;
+			productReference = 93C845221F9D07F10091FE1B /* ClashRoyale.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93C8451A1F9D07F10091FE1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = none;
+				TargetAttributes = {
+					93C845211F9D07F10091FE1B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 93C8451D1F9D07F10091FE1B /* Build configuration list for PBXProject "ClashRoyale" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93C845191F9D07F10091FE1B;
+			productRefGroup = 93C845231F9D07F10091FE1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93C845211F9D07F10091FE1B /* ClashRoyale */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93C845201F9D07F10091FE1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C845331F9D07F10091FE1B /* LaunchScreen.storyboard in Resources */,
+				93C845301F9D07F10091FE1B /* Assets.xcassets in Resources */,
+				93B549D91F9D0BA6008142C0 /* Supercell-magic-webfont.ttf in Resources */,
+				93C8452B1F9D07F10091FE1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93C8451E1F9D07F10091FE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C845281F9D07F10091FE1B /* ViewController.swift in Sources */,
+				93C8452E1F9D07F10091FE1B /* ClashRoyale.xcdatamodeld in Sources */,
+				8CB9061E1FA122F200899FE7 /* customTableViewCell.swift in Sources */,
+				93C845261F9D07F10091FE1B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93C845291F9D07F10091FE1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93C8452A1F9D07F10091FE1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93C845311F9D07F10091FE1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93C845321F9D07F10091FE1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93C845351F9D07F10091FE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93C845361F9D07F10091FE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93C845381F9D07F10091FE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9445LG25J4;
+				INFOPLIST_FILE = ClashRoyale/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clash.royale.core.data.test.ClashRoyale;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93C845391F9D07F10091FE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9445LG25J4;
+				INFOPLIST_FILE = ClashRoyale/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clash.royale.core.data.test.ClashRoyale;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93C8451D1F9D07F10091FE1B /* Build configuration list for PBXProject "ClashRoyale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C845351F9D07F10091FE1B /* Debug */,
+				93C845361F9D07F10091FE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93C845371F9D07F10091FE1B /* Build configuration list for PBXNativeTarget "ClashRoyale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C845381F9D07F10091FE1B /* Debug */,
+				93C845391F9D07F10091FE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		93C8452C1F9D07F10091FE1B /* ClashRoyale.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				93C8452D1F9D07F10091FE1B /* ClashRoyale.xcdatamodel */,
+			);
+			currentVersion = 93C8452D1F9D07F10091FE1B /* ClashRoyale.xcdatamodel */;
+			path = ClashRoyale.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 93C8451A1F9D07F10091FE1B /* Project object */;
+}
